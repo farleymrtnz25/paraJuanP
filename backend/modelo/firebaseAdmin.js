@@ -18,7 +18,7 @@ if (!admin.apps.length) {
                 clientEmail: process.env.FIREBASE_CLIENT_EMAIL,
                 privateKey: privateKey,
             }),
-            databaseURL: `https://${process.env.FIREBASE_PROJECT_ID}-default-rtdb.firebaseio.com`
+            databaseURL: `firebase-adminsdk-fbsvc@mi-licorera.iam.gserviceaccount.com`
         });
         
         console.log('Firebase Admin inicializado correctamente');
